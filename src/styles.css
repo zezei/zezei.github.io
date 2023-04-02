@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+}
+@layer components {
+    .angular-btn{
+        @apply inline-block whitespace-nowrap rounded-full bg-rose-600 px-[0.65em] pt-[0.35em] pb-[0.25em] text-center align-baseline text-[0.75em] font-bold leading-none;
+    }
+}
+
+.reveal {
+    position: relative;
+    opacity: 0;
+  }
